@@ -1,13 +1,13 @@
 ---
 name: ian-xiaohei-illustrations
-description: Generate Ian-style Chinese article illustrations. For tasks where users request "bizarre", "Xiaohei", "hand-drawn", "article illustration", "body image", "illustration suggestions", "shot list", "remove title/edit image" for Chinese articles, posts, blogs, Notion documents, workflow documents, methodology, processes, structures, states, metaphors, or viewpoints; defaults to Xiaohei IP, pure white hand-drawn style, sparse red/orange/blue annotations, clean but imaginative visual style.
+description: Generate Ian-style article illustrations. For tasks where users request "bizarre", "Xiaohei", "hand-drawn", "article illustration", "body image", "illustration suggestions", "shot list", "remove title/edit image" for articles, posts, blogs, Notion documents, workflow documents, methodology, processes, structures, states, metaphors, or viewpoints; defaults to Xiaohei IP, pure white hand-drawn style, sparse red/orange/blue annotations, clean but imaginative visual style.
 ---
 
 # Ian Xiaohei Bizarre Article Illustrations
 
 ## Core positioning
 
-Design and generate 16:9 horizontal article illustrations for Chinese articles. The goal is not commercial illustration, PPT infographics, or cute cartoons—it's transforming key judgments, processes, structures, states, or metaphors from articles into clean, bizarre, creative, readable but non-instructional hand-drawn explanatory illustrations.
+Design and generate 16:9 horizontal article illustrations. The goal is not commercial illustration, PPT infographics, or cute cartoons—it's transforming key judgments, processes, structures, states, or metaphors into clean, bizarre, creative, readable but non-instructional hand-drawn explanatory illustrations.
 
 The default visual IP is "Xiaohei": solid black, white dot eyes, thin legs, blank expression, seriously doing something absurd but valid. Xiaohei must participate in the image's core action, not just stand beside as decoration.
 
@@ -45,7 +45,7 @@ If the user only says "analyze how to illustrate / think about which parts need 
 - Structure type
 - What Xiaohei is doing in the image
 - Suggested elements
-- Suggested Chinese annotation words
+- Suggested annotation words
 
 Default 4-8 images. 1-3 for very short articles; don't easily exceed 9 even for long articles. Enough is enough—avoid turning articles into picture books.
 
@@ -55,10 +55,10 @@ If the user explicitly asks to "generate / output / create / help me generate," 
 
 Each image explains only one core structure. Prompts must include:
 
-- 16:9 horizontal Chinese article illustration
+- 16:9 horizontal article illustration
 - Pure white background
 - Black hand-drawn line art
-- Sparse red/orange/blue Chinese handwritten annotations
+- Sparse red/orange/blue handwritten annotations
 - Lots of empty white space
 - Xiaohei as the core action subject
 - No PPT, commercial illustration, childish cuteness, complex architecture, or type titles in top-left corner
@@ -72,7 +72,7 @@ After generation, check `references/qa-checklist.md`. If the following issues oc
 - Xiaohei is just decoration
 - Image is too full
 - Too much like a flowchart/PPT
-- Too much Chinese text or severe typos
+- Too much text or severe typos
 - "Common pitfalls / Flowchart / System Architecture" titles appear in top-left
 - Style is too cute, childish, or rigid
 - Background is not clean white

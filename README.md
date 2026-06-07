@@ -1,14 +1,14 @@
 # Ian Xiaohei Illustrations
 
-> Transform judgments, processes, states, and metaphors from Chinese articles into white-background, hand-drawn, absurd but clean article illustrations.
+> Transform judgments, processes, states, and metaphors from articles into white-background, hand-drawn, absurd but clean article illustrations.
 >
-> 16:9 horizontal | Xiaohei IP | Pure white hand-drawn | Sparse red/orange/blue Chinese annotations | Codex Skill
+> 16:9 horizontal | Xiaohei IP | Pure white hand-drawn | Sparse red/orange/blue annotations | Codex Skill
 
 ---
 
 ## What is this repo
 
-Ian Xiaohei Illustrations is a Codex Skill designed to guide AI agents in generating article illustrations for Chinese posts, blogs, Notion documents, and methodology content.
+Ian Xiaohei Illustrations is a Codex Skill designed to guide AI agents in generating article illustrations for posts, blogs, Notion documents, and methodology content.
 
 It's not a generic illustration prompt, nor a PPT infographic template. Its core goal: first understand the cognitive anchors in an article, then transform one judgment, process, structure, state, or metaphor into a memorable 16:9 hand-drawn explanatory illustration.
 
@@ -22,7 +22,7 @@ In short: **Get AI to not just "add an illustration" but to draw out a key cogni
 
 Great for:
 
-- Writing Chinese articles and needing body illustrations
+- Writing articles and needing body illustrations
 - Creating knowledge-based content, methodology content, or AI workflow content
 - Wanting to turn abstract judgments into concrete metaphors
 - Looking for an illustration style lighter than PPT infographics, more bizarre, with stronger personal recognition
@@ -44,7 +44,7 @@ Default output:
 
 - 16:9 horizontal article illustrations
 - A shot list of 4-8 illustrations per article
-- Theme, core meaning, structure type, Xiaohei action, and Chinese annotation suggestions for each image
+- Theme, core meaning, structure type, Xiaohei action, and annotation suggestions for each image
 - Final PNG images saved to `assets/<article-slug>-illustrations/` in the workspace
 
 Default non-output:
@@ -63,7 +63,7 @@ This skill uses Ian's "Xiaohei Bizarre Article Illustration" style by default:
 - Pure white background, no paper texture, off-white, shadows, or gradients
 - Black hand-drawn line art, thin lines, slight wobble
 - Lots of empty space, main subject takes only about 40%-60% of the canvas
-- Sparse red, orange, and blue Chinese handwritten annotations
+- Sparse red, orange, and blue handwritten annotations
 - Each image expresses only one core action, structure, state, or metaphor
 - Xiaohei must participate in the core action, not just decorate
 - Bizarre, creative, clean, but not childish or cutesy
@@ -127,7 +127,7 @@ cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 After installation, use in Codex:
 
 ```text
-Use $ian-xiaohei-illustrations to design and generate 5 Xiaohei bizarre article illustrations for this Chinese article.
+Use $ian-xiaohei-illustrations to design and generate 5 Xiaohei bizarre article illustrations for this article.
 ```
 
 ---
@@ -139,7 +139,7 @@ Use $ian-xiaohei-illustrations to design and generate 5 Xiaohei bizarre article 
 ```text
 Use $ian-xiaohei-illustrations. Don't generate images yet.
 Analyze which parts of this article are worth illustrating and output a shot list of about 5 images.
-For each image, specify: where it goes after which paragraph, theme, core meaning, structure type, what Xiaohei is doing, suggested Chinese annotation words.
+For each image, specify: where it goes after which paragraph, theme, core meaning, structure type, what Xiaohei is doing, suggested annotation words.
 
 <paste article>
 ```
@@ -148,7 +148,7 @@ For each image, specify: where it goes after which paragraph, theme, core meanin
 
 ```text
 Use $ian-xiaohei-illustrations to generate 4 Xiaohei bizarre article illustrations from this article.
-Requirements: 16:9 horizontal, pure white background, black hand-drawn line art, sparse red/orange/blue Chinese handwritten annotations.
+Requirements: 16:9 horizontal, pure white background, black hand-drawn line art, sparse red/orange/blue handwritten annotations.
 
 <paste article>
 ```
@@ -181,7 +181,7 @@ The skill's process is:
 5. Reinvent a low-tech, bizarre but valid physical metaphor
 6. Have Xiaohei take on the core action
 7. Generate each image separately via image model
-8. Check against QA checklist: white background, empty space, Xiaohei action, Chinese annotations, not PPT-like, not old case recreation
+8. Check against QA checklist: white background, empty space, Xiaohei action, annotations, not PPT-like, not old case recreation
 9. Save final PNGs and report usage and paths
 
 ---
@@ -227,18 +227,18 @@ Root-level README, LICENSE, NOTICE, and examples are for GitHub sharing document
 
 ## Notes
 
-- Shorter Chinese text in images is more stable.
+- Shorter text in images is more stable.
 - Each image should explain only one core structure, don't turn the article into an instruction manual.
 - Xiaohei must take on the core action; if the image still works completely without Xiaohei, then Xiaohei is too decorative.
 - Example images are only for calibrating line density, white space, color restraint, and Xiaohei's participation—not for recreating compositions.
 - AI image models may produce typos, hallucinated labels, style drift, or extra titles; check after generation.
-- If Chinese typos are severe, prioritize reducing annotation words and regenerating.
+- If typos in annotations are severe, prioritize reducing annotation words and regenerating.
 
 ---
 
 ## Related projects
 
-- [Ian Handdrawn PPT](https://github.com/helloianneo/ian-handdrawn-ppt) — Chinese hand-drawn technical PPT-style page illustration generation Skill
+- [Ian Handdrawn PPT](https://github.com/helloianneo/ian-handdrawn-ppt) — Hand-drawn technical PPT-style page illustration generation Skill
 - [Awesome Claude Code Skills](https://github.com/helloianneo/awesome-claude-code-skills) — Curated collection of Claude Code Skills / Agents / Plugins
 - [Obsidian + Claude AI Second Brain](https://github.com/helloianneo/obsidian-ai-second-brain) — Obsidian + Claude AI personal knowledge base setup guide
 

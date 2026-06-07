@@ -14,7 +14,7 @@ For each image, specify:
 - Structure type
 - What Xiaohei is doing
 - Suggested elements
-- Suggested Chinese annotation words
+- Suggested annotation words
 
 <paste article>
 ```
@@ -23,7 +23,7 @@ For each image, specify:
 
 ```text
 Use $ian-xiaohei-illustrations to generate 4 Xiaohei bizarre article illustrations from this article.
-Requirements: 16:9 horizontal, pure white background, black hand-drawn line art, sparse red/orange/blue Chinese handwritten annotations.
+Requirements: 16:9 horizontal, pure white background, black hand-drawn line art, sparse red/orange/blue handwritten annotations.
 Each image explains only one core structure—don't make it a PPT infographic or cute cartoon.
 
 <paste article>
@@ -47,7 +47,7 @@ Use $ian-xiaohei-illustrations to generate one 16:9 article illustration for thi
 Trust isn't shouted out—it's paved over one piece of evidence at a time.
 
 The scene should be bizarre but clean, with Xiaohei taking on the core action.
-Maximum 5 Chinese annotations, keep them short.
+Maximum 5 annotations, keep them short.
 ```
 
 ## Workflow theme

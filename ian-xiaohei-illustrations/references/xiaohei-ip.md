@@ -2,7 +2,7 @@
 
 ## Character definition
 
-Xiaohei is the fixed visual IP for Ian's Chinese article illustrations.
+Xiaohei is the fixed visual IP for Ian's article illustrations.
 
 Xiaohei appears in every image by default. Xiaohei is not a mascot, sticker, or cute decoration—it's a bizarre worker seriously participating in the system's operation.
 

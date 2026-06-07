@@ -10,7 +10,7 @@
 - Scene is bizarre, creative, and interesting.
 - Clean and minimalist, main subject does not exceed about 60% of the canvas.
 - Each image explains only one core structure.
-- Chinese annotations are few, short, and readable.
+- Annotations are few, short, and readable.
 - Orange is used only for main paths or arrows.
 - Red is used only for key points, problems, reminders, or results.
 - Blue is used only for supplementary notes, feedback, or system states.
@@ -26,7 +26,7 @@ If the following occur, regenerate or locally edit:
 - Text becomes long explanations.
 - Background has paper texture, shadows, gradients, off-white, or noise.
 - Real UI screenshots or techy interfaces.
-- Severe Chinese typos or unreadable annotations.
+- Severe typos or unreadable annotations.
 - Scene is too rigid without absurd metaphors.
 - Composition is too similar to old cases in `assets/examples/`.
 
